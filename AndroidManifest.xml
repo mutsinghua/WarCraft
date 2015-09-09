@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.feifeinet.reader.warcraft.ui" android:versionCode="1"
+	android:versionName="1.0">
+	<application android:icon="@drawable/icon" android:label="@string/app_name"
+		android:name="com.feifeinet.reader.warcraft.ReadApplication" android:debuggable="true">
+		<activity android:name=".SplashAcitivty" android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity android:name=".ReaderActivity">
+		</activity>
+		<activity android:name=".SplashLogoActivity"
+		 android:theme="@style/Transparent">
+		</activity>
+		<activity android:name=".MainMenuActivity">
+		</activity>
+			<activity android:name=".MarkListActivity">
+		</activity>
+		<activity android:name=".OptionMenuActivity" android:theme="@style/CustomMenu">
+		</activity>
+	</application>
+
+
+
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+	<uses-permission android:name="android.permission.READ_PHONE_STATE"></uses-permission>
+	<uses-permission android:name="android.permission.READ_OWNER_DATA"></uses-permission>
+</manifest> 

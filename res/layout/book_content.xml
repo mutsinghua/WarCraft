@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="vertical" android:layout_margin="0dp"
+	android:padding="0dp"
+	android:background="@drawable/mainmenu"
+	android:gravity="center_horizontal"
+	>
+<ImageView android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_weight="0.6" ></ImageView>
+
+	<ListView android:id="@+id/bookContent" android:layout_width="260dp"
+		android:layout_height="wrap_content" android:listSelector="@drawable/selectitem"
+		android:fadeScrollbars = "true"
+		android:clickable = "false"
+		android:layout_weight="0.4" android:scrollingCache="false"
+		android:divider="@drawable/transparent_background"
+		android:dividerHeight="0dp" 
+		android:footerDividersEnabled="false"
+		android:headerDividersEnabled="false"
+		android:drawSelectorOnTop ="true"
+		android:scrollbarFadeDuration="3000"
+		></ListView>
+</LinearLayout>

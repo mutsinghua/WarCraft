@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="vertical" android:gravity="center_horizontal"
+	android:background="@drawable/menu_bg">
+
+	<ImageButton android:id="@+id/menu_fontsetup"  android:background="@drawable/font_setup"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_marginTop="25dp"></ImageButton>
+
+
+	<ImageButton android:id="@+id/menu_saveprogress" android:background="@drawable/save_progress"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_marginTop="20dp"></ImageButton>
+	<ImageButton android:id="@+id/menu_load_progress"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:background="@drawable/load_progress" android:layout_marginTop="20dp"></ImageButton>
+
+
+	<ImageButton android:id="@+id/menu_auto_scroll"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_marginTop="20dp" android:background="@drawable/auto_scroll"></ImageButton>
+	<ImageButton android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:id="@+id/menu_adv_setup"
+		android:layout_marginTop="20dp" android:background="@drawable/advance_setup"></ImageButton>
+
+<ImageButton android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:id="@+id/menu_return_content"
+		android:layout_marginTop="20dp" android:background="@drawable/return_content"></ImageButton>
+
+
+</LinearLayout>
